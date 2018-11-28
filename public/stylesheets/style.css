@@ -8,17 +8,27 @@ body {
 a {
   color: #00B7FF;
 }
-
+.container-images{
+  position: relative;
+}
+img.tony{
+  width: 40%;
+  float: left;
+}
+img.rosie{
+  width: 60%;
+  padding-left: 10%;
+  float:left;
+}
 @media only screen and (max-width: 600px) {
   div.logo-placement{
     width: 90%;
-    padding: 33% 0 0 15%;
+    padding: 50% 0 0 15%;
   }
   a{
     font-size: 1.25em;
   }
 }
-
 @media only screen and (min-width: 600px) {
   div.logo-placement{
     width: 80%;
@@ -32,11 +42,12 @@ a {
 @media only screen and (min-width: 1280px) {
   div.logo-placement{
     width:70%;
-    padding: 5% 0 0 30%;
+    padding: 0 0 0 30%;
   }
   a{
     font-size: 1.5em;
   }
+
 }
 
 .nav.right{
