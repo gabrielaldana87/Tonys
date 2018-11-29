@@ -23,16 +23,20 @@ img.rosie{
 @media only screen and (max-width: 600px) {
   div.logo-placement{
     width: 90%;
-    padding: 50% 0 0 15%;
+    padding: 0% 0 0 15%;
+    right: 20%;
   }
   a{
     font-size: 1.25em;
+  }
+  div.index{
+    margin-top: 20%;
   }
 }
 @media only screen and (min-width: 600px) {
   div.logo-placement{
     width: 80%;
-    padding: 10% 0 0 25%;
+    padding: 5% 0 0 15%;
   }
   a{
     font-size: 1.25em;
